@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 2px solid black;
+            width: 600px;
+            padding: 20px;
+            margin-left: 350px;
+            margin-top: 30px;
+
+        }
+        body{
+            background-image:url(/Assert/log.jpg);
+            background-size: 100% 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">signup form</h1>
+    <form action="/welcome.html">
+        <input type="text" name="fn"placeholder="first name">
+    <input type="text" name="mn"placeholder="middle name">
+    <input type="text" name="ln"placeholder="last name"><br>
+    <input type="date"><br>
+    <input type="number" name="age" placeholder="Age" min="20" step="2"><br>
+    <input type="number" name="contact" placeholder="Enter the mobile number"><br>
+    <input type="mail" name="mail id" placeholder="Enter the mail id"><br>
+    <label >Gender</label><br>
+    <input type="radio" name="Gender" id="m">
+    <label for="m">male</label>
+    <input type="radio" name="Gender" id="f">
+    <label for="f">female</label>
+    <input type="radio" name="Gender" id="o">
+    <label for="o">others</label><br>
+    <textarea name="Address" id="a" placeholder="Address" cols="30" rows="10"></textarea><br>
+    <input type="checkbox" id="n1">
+    <label for="n1">mail</label>
+    <input type="checkbox" id="n2">
+    <label for="n2">sms</label><br>
+    <label>Technical skills</label><br>
+    <label>Python</label>
+    <input type="range"><br>
+    <label>java</label>
+    <input type="range"><br>
+    <input type="submit" value="signup">
+    </form>
+    <form action="">
+        <input type="reset">
+    </form>
+</body>
+</html>

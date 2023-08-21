@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .page{
+           
+            border-radius: 10px;
+            width: 400px;
+            margin-left: 100px;
+            margin-top: 100px;
+        }
+        .login{
+           border: 2px solid black;
+           width: 300px;
+           border-radius: 20px;
+           margin: 30px;      
+        }
+        input[type="text"],input[type="password"],input[type="submit"]{
+           color: brown;
+           background-color:aliceblue;
+           padding: 10px;
+           margin: 20px;
+           border-radius: 30px;
+        }
+        body{
+            background-image: url(/Assert/computer.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h1 style="text-align: center; color:blue; font-size: 100px; font-family: cursive;">Techazura</h1>
+    <div class="login">
+        <form action="/welcome.html">
+            <input type="text" id="un" placeholder="Enter the user name" required><br>
+            <input type="password" id="pw" placeholder="Enter the password" required><br>
+            <input type="submit" value="login">
+        </form>
+        <form action="/signup.html" style="margin-left: 80px;">
+            <input type="submit" value="signup">
+        </form>
+    </div>
+    
+</body>
+</html>
